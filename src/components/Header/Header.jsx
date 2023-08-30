@@ -2,6 +2,7 @@ import React from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
 import logo from "../../images/Logo.svg";
 import "./Header.css";
 const Header = () => {
@@ -14,10 +15,18 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link href="/order">Order</Nav.Link>
-                        <Nav.Link href="/order-review">Order Review</Nav.Link>
-                        <Nav.Link href="/manage-Inventory">Manage Inventory</Nav.Link>
-                        <Nav.Link href="/login">Login</Nav.Link>
+                        <Link className="nav-link" to="/order">
+                            Order
+                        </Link>
+                        <Link className="nav-link" to="/order-review">
+                            Order Review
+                        </Link>
+                        <Link className="nav-link" to="/manage-Inventory">
+                            Manage Inventory
+                        </Link>
+                        <Link className="nav-link" to="/login">
+                            Login
+                        </Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

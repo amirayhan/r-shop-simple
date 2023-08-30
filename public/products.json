@@ -15,7 +15,7 @@
     {
         "id": "13cbc7ed-a61b-4883-9d42-82d7d8642b86",
         "category": "Men's Sneaker",
-        "name": "LUNAR NEW YEAR ULTRABOOST DNA SHOES",
+        "name": "BOOST DNA SHOES",
         "seller": "Addidas",
         "price": 196,
         "stock": 19,
@@ -41,7 +41,7 @@
     {
         "id": "4bf9798f-63bc-4a83-b0c6-6a3b816fe922",
         "category": "Men's Sneaker",
-        "name": "LITE RACER ADAPT 3.0 SHOES",
+        "name": "LITE RACER SHOES",
         "seller": "Addidas",
         "price": 229,
         "stock": 10,
@@ -119,7 +119,7 @@
     {
         "id": "ac44095f-230e-4502-8816-dea3eaae8320",
         "category": "Men's Sneaker",
-        "name": "NMD_R1 PRIMEBLUE SHOES",
+        "name": "TRACK PANTSSHOES",
         "seller": "Addidas",
         "price": 437,
         "stock": 1,
@@ -158,7 +158,7 @@
     {
         "id": "b357e19b-4dd9-4fc7-b5c0-9ed5255464ba",
         "category": "Men's Pants",
-        "name": "PRIMEBLUE SST TRACK PANTS",
+        "name": "SST TRACK PANTS",
         "seller": "Addidas",
         "price": 63,
         "stock": 46,
