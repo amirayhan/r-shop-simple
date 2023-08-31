@@ -9,6 +9,7 @@ import Order from "./components/Order/Order.jsx";
 import OrderReview from "./components/OrderReview/OrderReview.jsx";
 import Shop from "./components/Shop/Shop.jsx";
 import "./index.css";
+import cartProductsLoader from "./loaders/cartProductsLoader.js";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -21,6 +22,7 @@ const router = createBrowserRouter([
             {
                 path: "order",
                 element: <Order></Order>,
+                loader: cartProductsLoader,
             },
             {
                 path: "order-review",
