@@ -2,6 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Checkout from "./components/Checkout/Checkout.jsx";
 import Home from "./components/Layout/Home.jsx";
 import Login from "./components/Login/Login.jsx";
 import ManageInventory from "./components/ManageInventory/ManageInventory.jsx";
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
             {
                 path: "manage-inventory",
                 element: <ManageInventory></ManageInventory>,
+            },
+            {
+                path: "checkout",
+                element: <Checkout></Checkout>,
             },
             {
                 path: "login",
